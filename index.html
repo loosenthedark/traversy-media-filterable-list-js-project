@@ -10,6 +10,16 @@
     type="text/css">
 
   <title>Filterable List (using vanilla JS)</title>
+
+  <style>
+  
+  .hide {
+    display: none !important;
+    padding: 0 !important;
+  }
+  
+  </style>
+
 </head>
 
 <body>
@@ -64,9 +74,11 @@
 
   <script>
 
+    // ***** BRAD TRAVERSY'S (OUTDATED?) CODE *****
+
     // GET INPUT ELEMENT
 
-    let filterInput = document.getElementById('filter-input');
+    const filterInput = document.getElementById('filter-input');
 
     // ADD EVENT LISTENER
 
@@ -93,6 +105,35 @@
         }
       }
     }
+
+
+
+    // ***** AMENDED (MORE MODERN?) CODE SUPPLIED BY YOUTUBE COMMENTER MrFckingninja AND RETRIEVED FROM HIS GITHUB REPO: https://github.com/damian-balas/filterable-list/blob/master/main.js
+
+    // FROM HIS YOUTUBE COMMENT:
+
+    // 1. better to use const to declare variables (instead of let) if we're not going to be changing the value of said variables
+    // 2. .forEach() is usually a preferable alternative to using a for loop
+    // 3. indexOf() has generally been replaced nowadays by either .includes() or .filter()
+
+    // *****
+
+
+
+    // const filterInput = document.querySelector('#filter-input');
+    // const names = [...document.querySelectorAll('.collection-item')];
+
+    // // make sure search box input field is focused by default
+
+    // filterInput.focus();
+
+    // function filterName() {
+    //   const value = this.value.toUpperCase();
+    //   names.forEach(name => name.textContent.toUpperCase().includes(value) ? name.classList.remove('hide') : name.classList.add('hide'));
+    // }
+
+    // filterInput.addEventListener('change', filterName);
+    // filterInput.addEventListener('keyup', filterName);
 
   </script>
 
