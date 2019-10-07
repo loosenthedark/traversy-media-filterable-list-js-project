@@ -18,6 +18,6 @@ _3. IndexOf is old too, you can use .includes() or the .filter() option_"
 
 
 
-### Link to deployed site:
+## Link to deployed site:
 
 https://loosenthedark.github.io/traversy-media-filterable-list-js-project
