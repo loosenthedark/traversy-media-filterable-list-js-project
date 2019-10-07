@@ -8,13 +8,13 @@ Brad's project code: https://www.youtube.com/redirect?q=http%3A%2F%2Fwww.travers
 
 https://www.youtube.com/redirect?q=https%3A%2F%2Fgithub.com%2Fdamian-balas%2Ffilterable-list&stzid=UgyKtQatqhi9iSeDh3B4AaABAg&redir_token=9uFnc1S-qa4J08yBjd6yoWJst2d8MTU3MDUyNDcxMUAxNTcwNDM4MzEx&event=comments in line with his advice:
 
-" _1. don't use let if you won't change the value of the variable, use const instead. (const foo = document.querySelector('.bar');
+"_1. don't use let if you won't change the value of the variable, use const instead. (const foo = document.querySelector('.bar');_
 
 
-2. Don't use for loops, in 99% you can use .forEach() 
+_2. Don't use for loops, in 99% you can use .forEach()_
 
 
-3. IndexOf is old too, you can use .includes() or the .filter() option_ "
+_3. IndexOf is old too, you can use .includes() or the .filter() option_"
 
 
 
