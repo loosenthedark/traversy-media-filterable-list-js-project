@@ -78,7 +78,7 @@
 
     // GET INPUT ELEMENT
 
-    const filterInput = document.getElementById('filter-input');
+    let filterInput = document.getElementById('filter-input');
 
     // ADD EVENT LISTENER
 
@@ -114,7 +114,7 @@
 
     // 1. better to use const to declare variables (instead of let) if we're not going to be changing the value of said variables
     // 2. .forEach() is usually a preferable alternative to using a for loop
-    // 3. indexOf() has generally been replaced nowadays by either .includes() or .filter()
+    // 3. indexOf() has generally been replaced nowadays by either .includes() (which is used here) or .filter()
 
     // *****
 
@@ -123,8 +123,7 @@
     // const filterInput = document.querySelector('#filter-input');
     // const names = [...document.querySelectorAll('.collection-item')];
 
-    // // make sure search box input field is focused by default
-
+    // // make sure search box input field is focused by 
     // filterInput.focus();
 
     // function filterName() {
